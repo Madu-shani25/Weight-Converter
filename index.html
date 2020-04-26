@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=w, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" 
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+    crossorigin="anonymous">
+    
+    <style>
+        body{
+           margin-top:80px;
+           background:mediumspringgreen;
+        }
+    </style>
+    
+    <title>Weight Converter</title>
+</head>
+<body>
+    <script  defer src="style.js"></script>
+    <div class="container">
+        <div class="row-md-6">
+         <div class="col-md-6">
+            <h1 class="display 4 text-center mb-3">Weight Converter</h1>
+            <form>
+                <div class="form-group">
+                 <input type="number" id="IbsInput" 
+                 class=" form-control form-control-lg" placeholder="Enter pounds...">
+                </div><!--form-group-->
+            </form>
+            <div id="output" class="text-center">
+                <div class="card bg-primary mb-3">
+                    <div class="card-block mb-4">
+                        <h5 class="text-white">Grams</h5>
+                        <div id="gram-output">
+                        </div><!--gram-output-->
+                    </div><!--card-block-->
+                </div><!--card-->
+
+                <div class="card bg-warning mb-3">
+                    <div class="card-block mb-4">
+                        <h5 class="text-white">Kilograms</h5class="text-white">
+                        <div id="kgram-output">
+                        </div><!--kgram-output-->
+                    </div><!--card-block-->
+                </div><!--card-->
+
+                <div class="card bg-danger mb-3">
+                    <div class="card-block mb-4">
+                        <h5 class="text-white">Ounces</h5>
+                        <div id="ozOutput">
+                        </div><!--o-output-->
+                    </div><!--card-block-->
+                </div><!--card-->
+
+            </div><!--output-->
+         </div><!--col-md-6-->
+        </div><!--lines-->
+    </div><!--container-->
+</body>
+</html>
